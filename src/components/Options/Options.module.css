@@ -2,5 +2,10 @@
     width: 100%;
     height: 900px;
     padding: 15px;
+}
+
+.optionsPageWrapper {
+    padding: 15px;
     background-color: white;
+    height: 100%;
 }

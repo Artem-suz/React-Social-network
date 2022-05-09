@@ -8,7 +8,7 @@ import { compose } from 'redux'
 import {getUsers, getPageSize, getTotalUsersCount, getCurrentPage, 
     getIsFetching, getFollowingInProgress} from '../../redux/selectors/users-selectors.js'
 
-const UsersContainer = React.memo (props => {
+const UsersContainer = (props) => {
     
     useEffect( () => {
         props.requestUsers(props.currentPage, props.pageSize)
@@ -32,7 +32,7 @@ const UsersContainer = React.memo (props => {
             />
         </div>
     )
-})
+}
 
 
 let mapStateToProps = (state) => {

@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Социальная сеть
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+В данном проекте представлена верстка и реализация части функционала социальной сети.
 
-## Available Scripts
+## Цель проекта
 
-In the project directory, you can run:
+1. Получение опыта работы с библиотекой React.
+2. Получение опыта работы с Redux, Redux-thunk.
+3. Получение опыта работы с библиотекой Formik.
+4. Получение опыта работы с библиотекой Reselect.
+5. Получение опыта работы с библиотекой axios.
+6. Обучение реализации логинизации пользователя.
+7. Обучение по настройке роутов.
 
-### `npm start`
+## Запуск проекта
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### https://artem-suz.github.io/React-Social-network/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Логин: kudireva@mail.ru
 
-### `npm test`
+#### Пароль: A1qaz2wsx
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Функционал
 
-### `npm run build`
+- Страница **Login**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - Ошибочный ввод логина или пароля провоцирует валидацию формы.
+  - Серия ошибочных вводов пароля или логина генерирует **каптчу**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Страница **My profile**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - В шапке сайта, в правом углу, реализован **Logout**.
+  - Реализован функционал по обновлению **аватара** пользователя.
+  - Смена **статуса** профиля пользователя осуществляется по клику на него.
+  - **Редактирование** остальной информации пользователя осуществляется по кнопке "карандаш".
+    - Форма Contact information имеет валидацию по формату ссылок и кол-ву символов.
+    - При активном чекбоксе 'Looking for a job' - результат формы 'My skills' станет виден в профиле пользователя, а 'Looking for a job' примет значение 'yes' (в противном случае 'no').
+  - Форма **My posts** отправляет полученные данные только в BLL, т.к сервер не поддерживает эту функцию. Реализована валидация по кол-ву символов.
+  - Блок **Other Social Networks** отображает ссылки на другие соц.сети.
+  - Блок **Friends** - только верстка.
 
-### `npm run eject`
+- Страница **Messenger**:
+  - Из-за ограниченого функционала учебного сервера - реализована верстка и **форма по отправке сообщений пользователям**.
+- Страница **Users**:
+  - Реализована подгрузка зарегистрированных пользователей с сервера. Наполнение отрисованных карточек зависит от заполненных пользователями данных.
+  - Реализован функционал **подписки** на пользователей.
+  - Кликнув по аватару пользователя - осуществится подгрузка профиля.
+  - Реализована **пагинация** по 10 пользователей.
+- Страница **News**:
+  - На данный момент сервер не распологает данным функционалом.
+- Страница **Music**:
+  - На данный момент сервер не распологает данным функционалом.
+- Страница **Settings**:
+  - На данный момент сервер не распологает данным функционалом.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Используемые технологии
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [HTML](https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/HTML_basics) - язык разметки веб-страницы.
+- [JS](https://developer.mozilla.org/ru/docs/Learn/JavaScript/First_steps/What_is_JavaScript) - язык программирования позволяющий создать динамичные веб-приложения.
+- [React](https://ru.reactjs.org/docs/getting-started.html) - это JavaScript-библиотека для создания пользовательских интерфейсов.
+- [React Router](https://v5.reactrouter.com/web/guides/quick-start) - это библиотека маршрутизации (routing) в React.
+- [Redux](https://redux.js.org/) - это библиотека управления состоянием для приложений, написанных на JavaScript.
+- [Redux Thunk](https://github.com/reduxjs/redux-thunk) - это middleware библиотека, которая позволяет вызвать action creator, возвращая при этом функцию вместо объекта.
+- [Reselect](https://github.com/reduxjs/reselect) - это библиотека для создания мемоизированных, пригодных для компоновки селекторных функций.
+- [Formik](https://formik.org/docs/overview) - это библиотека, помогающая работать с формами.
+- [axios](https://github.com/axios/axios) - это библиотека, позволяющая делать HTTP-запросы.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Вид интерфейса
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Login](screenshots/Login.PNG)
+![Profile](screenshots/Profile.PNG)
+![Profile2](screenshots/Profile2.PNG)
+![Dialogs](screenshots/Dialogs.PNG)
+![Users](screenshots/Users.PNG)
+![User](screenshots/User.PNG)

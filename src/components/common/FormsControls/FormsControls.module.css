@@ -1,0 +1,97 @@
+.inputLogin input {
+    height: 20px;
+    border-radius: 8px;
+    width: 200px;
+    margin-bottom: 15px;
+    padding: 4px 42px 3px 12px;
+    font-size: 15px;
+    border: 1px solid #c2cbd2;
+    letter-spacing: 1px;
+}
+
+.inputLogin input:hover {
+    border: 1px solid #929ea8;
+}
+
+.inputLogin input:focus {
+    border: 1px solid #3f4257;
+    outline: none;
+}
+
+.textAreaError {
+    border: 2px solid red;
+}
+
+
+.textareaProfilePost textarea {
+    width: 520px;
+    min-height: 20px;
+    resize: none;
+    outline: none;
+    -moz-appearance: none;
+    overflow: auto;
+    background: 0;
+    border: 1px solid #c2cbd2;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.textareaProfilePost textarea:hover,
+.textareaEditProfile textarea:hover,
+.inputContactInform input:hover {
+    border: 1px solid #3f4257;
+    transition: 0.2s;
+}
+
+.textareaEditProfile textarea {
+    min-height: 100px;
+    width: 300px;
+    resize: none;
+    overflow: auto;
+    border-radius: 3px;
+    outline: 0;
+    border: 1px solid #c2cbd2;
+}
+
+
+.textareaProfile textarea:focus {
+    border: 1px solid #38a9ff;
+}
+
+.InputLoginCaptcha input {
+
+    margin-bottom: 15px;
+    height: 20px;
+    border-radius: 8px;
+    width: 200px;
+    margin-bottom: 15px;
+    padding: 4px 42px 3px 12px;
+    font-size: 15px;
+    border: 1px solid #c2cbd2;
+    letter-spacing: 1px;
+}
+
+.inputContactInform input {
+    height: 20px;
+    border-radius: 8px;
+    width: 210px;
+    margin-bottom: 15px;
+    padding: 4px 42px 3px 10px;
+    font-size: 15px;
+    border: 1px solid #c2cbd2;
+    letter-spacing: 1px;
+    outline: 0;
+}
+
+.textareaDialogs textarea{
+    width: 480px;
+    min-height: 20px;
+    resize: none;
+    outline: none;
+    -moz-appearance: none;
+    overflow: auto;
+    background: 0;
+    border: 1px solid #c2cbd2;
+    padding: 5px;
+    border-radius: 3px;
+}

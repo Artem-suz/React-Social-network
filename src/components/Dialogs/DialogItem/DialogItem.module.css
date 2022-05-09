@@ -1,0 +1,41 @@
+
+
+.dialog {
+    margin: 5px 0px;
+    width: 100%;
+    
+}
+
+.dialog a {
+    text-decoration: none;
+    color: #9A9FBF;
+    padding: 5px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+}
+
+.dialog:hover {
+    background-color:#e0e8ee ;
+    color: #3f4257;
+    cursor: pointer;
+}
+
+
+
+a.active {
+    color: #3f4257 ;
+    background-color:#e0e8ee;
+    padding: 5px;
+} 
+
+.img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px; 
+}
+
+
+

@@ -1,0 +1,233 @@
+
+
+.descriptionBlock {
+    padding:15px;
+    display: flex;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+}
+
+.ownerAvatarEditor {
+    margin: 10px 0px;
+}
+
+.currentText {
+    display: block;
+    font-size: 14px;
+    margin: 0px 0px 5px 0px;
+    
+}
+
+.name {
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+
+
+.label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.narrowColumn {
+    
+    width: 230px;
+    display: inline-block;
+}
+
+.wideColumn {
+    width: 555px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.topWideColumn {
+    border: 1px solid #e6ecf5;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+
+.midWideColumn {
+    margin-top: 15px;
+    border: 1px solid #e6ecf5;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.ownerAvatarEditor input {
+    display: none;
+}
+
+.ownerAvatarEditor label {
+    color: white;
+    height: 30px;
+    width: 200px;
+    background-color: #ff5e3a;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.ownerAvatarEditor label:hover {
+    background-color: #ff3a3a;
+    transition: 0.3s;
+}
+
+.topNarrowColumn {
+    padding: 15px;
+    border: 1px solid #e6ecf5;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.midNarrowColumn {
+    margin-top: 15px;
+    border: 1px solid #e6ecf5;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 5px;
+} 
+
+
+
+.profileStatus {
+    padding: 5px;
+}
+
+.ownerProfileStatus {
+    padding: 5px;
+    margin-left: -5px;
+}
+
+.ownerProfileStatus .status {
+    color:grey;
+}
+
+.ownerProfileStatus:hover {
+    background-color: #d1d1df;
+    cursor: pointer;
+    
+}
+
+.btnEdit{
+    margin-top: 20px;
+}
+
+.midWideColumnTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnEditMode {
+    cursor: pointer;
+    color: #9A9FBF;
+}
+
+.btnEditMode:hover {
+    color: #ff3a3a;
+    transition: 0.2s;
+}
+
+.editContactInformationRow {
+    display: flex;
+    margin-top: 5px;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.editContactInformationWideRow {
+    width: 400px;
+    display: flex;
+    margin-top: 5px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.editLabel{
+    margin-right: 10px;
+    
+}
+
+.editMode {
+    display: block;
+    margin-top: 15px;
+    border: 1px solid #e6ecf5;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.editMode h2 {
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    margin-top: 0px;
+}
+
+.checkbox {
+    width: 170px;
+}
+
+.btnFromEditMode button{
+    background-color: white;
+    border: none;
+    color: #3f4257;
+    cursor: pointer;
+    
+}
+
+.btnFromEditMode span {
+    font-size: 28px;
+}
+
+.btnFromEditMode button:hover {
+    color: #ff5e3a;
+    transition: 0.2s;
+}
+
+.editProfileStatus textarea{
+    width: 510px;
+    min-height: 20px;
+    resize: none;
+    outline: none;
+    -moz-appearance: none;
+    overflow: auto;
+    background: 0;
+    border: 1px solid #c2cbd2;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 15px;
+}

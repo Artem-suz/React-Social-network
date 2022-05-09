@@ -1,0 +1,47 @@
+.selectedPage {
+    font-weight: bold;
+}
+
+.pagination {
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination span {
+    
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #39a4f7;
+    color: white;
+    margin: 0 5px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    line-height: 35px;
+}
+
+.pagination span:hover {
+    background-color: #52b1fa;
+}
+
+.btnNext {
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+    color: #39a4f7;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btnPrev {
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+    color: #39a4f7;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.myPostsBlock {
+    margin-top: 15px;
+}
+
+.posts {
+    margin-top: 10px;
+}
+
+.submitPostField {
+    height: 25px;
+    box-sizing: border-box;
+    border: 1px solid #a1a9b3;
+    outline: 0
+}
+
+.error {
+    color: red;
+}
+
+.submitPostBox {
+    
+    border: 1px solid #e6ecf5;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.submitPostBox h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.buttonPost button{
+    letter-spacing: 1px;
+    color: white;
+    padding: 5px 16px;
+    background-color: #38a9ff;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    margin-top: 10px;
+    margin-left: calc(100% - 63px);
+}
+
+.buttonPost button:hover {
+    background-color: #2d8fda;
+    transition: 0.2s;
+}

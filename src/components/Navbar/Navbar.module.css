@@ -1,0 +1,30 @@
+.nav {
+
+    width: 15%;
+    padding: 15px;
+    display: inline-block;
+}
+
+.item a {
+    color: #9A9FBF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.item a.active {
+    color: #3f4257;
+}
+
+.item :hover {
+    color: #3f4257;
+    background-color: white;
+}
+
+.item {
+    margin: 6px 0;
+}
+
+a span {
+    margin-right: 5px;
+}

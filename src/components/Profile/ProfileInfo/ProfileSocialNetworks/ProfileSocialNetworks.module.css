@@ -1,0 +1,48 @@
+.socialItem {
+    display: block;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.bgFacebook{
+    background-color: #2f5b9d;
+}
+
+.bgTwitter{
+    background-color: #38bff1;
+}
+
+.bgDribbble {
+    background-color: #f74881;
+}
+
+.bgFacebook:hover {
+    background-color: #406db0;
+}
+
+.bgTwitter:hover{
+    background-color: rgb(62, 196, 250);
+}
+
+.bgDribbble:hover {
+    background-color: #f96898;
+}
+
+.ProfileSocialNetworks {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e6ecf5;
+    margin-top: 15px;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}

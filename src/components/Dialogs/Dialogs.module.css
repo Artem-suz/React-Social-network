@@ -1,0 +1,61 @@
+.pageDialogs {
+    
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.dialogs {
+    padding: 10px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #e6ecf5;
+    border-radius: 5px;
+}
+
+.messages {
+    padding: 10px;
+    width: 500px;
+    background-color: white;
+    border: 1px solid #e6ecf5;
+    border-radius: 5px;
+    margin-left: 15px;
+    height: 555px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.messagesWrapper {
+    padding: 5px;
+}
+
+.mesText {
+    padding: 10px;
+}
+
+.chatInputText {
+    height: 25px;
+    box-sizing: border-box;
+    border: 1px solid #a1a9b3;
+    outline: 0
+}
+
+.error {
+    color: red;
+}
+
+.appWrapperContent {
+    width: 90%;
+    padding: 15px;
+}
+
+.dialogsBtnSend button {
+    letter-spacing: 1px;
+    color: white;
+    padding: 5px 16px;
+    background-color: #38a9ff;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    margin-top: 10px;
+}

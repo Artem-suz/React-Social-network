@@ -1,0 +1,22 @@
+
+
+.friendsTitle {
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.friendsWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    flex-wrap: wrap;
+    
+}
+
+.myProfileFriends {
+    padding: 15px;
+}
